@@ -3,8 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap-theme.min.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap-theme.min.css"/>
         
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style.css"/>
         
@@ -18,33 +18,45 @@
     </head>
     
 
-    <body data-spy="scroll" data-target="#navbar" data-offset="100">
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         
         <div class="site-wrapper">
+            
 
             <div class="site-wrapper-inner" >
                 
                 <div class="masthead clearfix">
                       <div class="inner">
-                        <h3 class="masthead-brand">Cover</h3>
+                        <h3 class="masthead-brand">Northcoast Shipping Agency</h3>
                         <nav class="navbar" id="navbar">
                           <ul class="nav masthead-nav">
-                            <li><a href="#home" onclick="$('#home').goTo();">Home</a></li>
-                            <li><a href="#features" onclick="$('#features').goTo();">Features</a></li>
-                            <li><a href="#contact" onclick="$('#contact').goTo();">Contact</a></li>
+                            <li>
+                                <a href="#home" onclick="$('#home').goTo();">
+                                    <span class="glyphicon glyphicon-home"></span>&nbsp;Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#features" onclick="$('#features').goTo();">
+                                    <span class="glyphicon glyphicon-user"></span>&nbsp;Staff
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact" onclick="$('#contact').goTo();">
+                                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact
+                                </a>
+                            </li>
                           </ul>
                         </nav>
                       </div>
                     </div>
                 
                 <div class="cover-container" id="home">
-                    
                     <div class="inner cover">
                         <h1 class="cover-heading">Cover your page.</h1>
                         <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, 
                             and add your own fullscreen background photo to make it your own.</p>
                         <p class="lead">
-                            <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                            <a href="#" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-search"></span>&nbsp;Learn more</a>
                         </p>
                     </div>
 
@@ -54,7 +66,10 @@
                     <div class="inner cover" >
                         <h1 class="cover-heading">Cover your page.</h1>
                         <p class="lead">
-                          <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis quam ligula, id mollis odio faucibus id. 
+                          Vivamus sapien massa, dictum vitae turpis at, efficitur faucibus sapien. Aliquam dapibus ornare dapibus. 
+                          Maecenas ac velit lobortis, maximus nunc quis, ornare odio. Donec et consectetur mi, non ultrices tellus. 
+                          
                         </p>
                     </div>
                 </div>
@@ -62,35 +77,26 @@
                     
                 <div class="cover-container" id="contact">    
                     <div class="inner cover" >
-                        <h1 class="cover-heading">Cover your page.</h1>
-                        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, 
-                            and add your own fullscreen background photo to make it your own.</p>
+                        <h1 class="cover-heading">Staff Directory</h1>
                         <p class="lead">
-                          <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                            Nam neque quam, laoreet venenatis turpis vel, volutpat pharetra odio. Ut ac est rhoncus, laoreet justo ac, 
+                            rutrum enim. Integer tincidunt vehicula mollis. In elementum, est vel tristique aliquam, augue magna aliquam 
+                            mi, eget rhoncus enim lorem et mi. Donec et purus eu massa luctus malesuada. Donec a pretium turpis. 
+                        </p>
+                        <p class="lead">
+                          <a href="#" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact Us</a>
                         </p>
                     </div>
                     
                     <div class="mastfoot">
-                        <div class="inner">
-                          <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                        <div class="inner footer">
+                          <p>Copyright &copy; <?php echo date("Y");?>. Northcoast Shipping Agents. As Agents Only. All Rights Reserved.</p>
                         </div>
                     </div>
-                </div>
-
-                
-                
-            </div>
-
-            
-            
+                </div> 
+            </div>   
         </div>
-        
-        
-
     </body>
-    
-        
-    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

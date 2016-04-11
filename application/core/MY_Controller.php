@@ -27,7 +27,7 @@ class Application extends CI_Controller {
         parent::__construct();
         // $this->load->helper('validate'); // load the helper file 'validate_helper.php'
         $this->data = array();
-        $this->data['title'] = "Blackfish Enterprises"; // references the title of the entire website
+        $this->data['title'] = "Northcoast Shipping Agency"; // references the title of the entire website
     }
 
     /**
